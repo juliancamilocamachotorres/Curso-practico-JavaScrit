@@ -1,2 +1,2 @@
 # Curso-practico-JavaScrit
-## Iicio del curso practico
+## Inicio del curso practico
