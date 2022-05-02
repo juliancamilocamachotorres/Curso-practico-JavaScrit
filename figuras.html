@@ -7,9 +7,27 @@
     <title>Figuras geometricas | Curso Practico JavaScript</title>
 </head>
 <body>
-   <h1>
-       Figuras geometricas
-   </h1> 
+    <header>
+        <h1>
+            Figuras geometricas
+        </h1> 
+    </header>
+   <p>El primer taller del cuerso practico de JavaScript</p>
+   <section>
+       <h2>Calcule el area y el perimetro de un cuadrado</h2>
+       <form action="">
+            <label for="InputCuadrado">
+                Cuanto mide un lado del cuadrado:
+            </label>
+            <input id="InputCuadrado" type="number">
+            <button type="button" onclick="calcularPerimetroCuadrado()">
+                Calcular perimetro
+            </button>
+            <button type="button" onclick="calcularAreaCuadrado()">
+                Calcular area
+            </button>
+       </form>
+   </section>
    <script src="./figuras.js"></script>
 </body>
 </html>
