@@ -14,12 +14,13 @@
     </header>
    <p>El primer taller del cuerso practico de JavaScript</p>
    <section>
-       <h2>Calcule el area y el perimetro de un cuadrado</h2>
+       <h2>cuadrado</h2>
        <form action="">
             <label for="InputCuadrado">
                 Cuanto mide un lado del cuadrado:
             </label>
             <input id="InputCuadrado" type="number">
+            <br>
             <button type="button" onclick="calcularPerimetroCuadrado()">
                 Calcular perimetro
             </button>
@@ -28,6 +29,56 @@
             </button>
        </form>
    </section>
+
+   <section>
+    <h2>Triangulo</h2>
+    <form action="">
+         <label for="InputLado1">
+             Cuanto mide un lado #1 del triangulo:
+         </label>
+         <input id="InputLado1" type="number">
+         <br>
+         <label for="InputLado2">
+            Cuanto mide un lado #2 del triangulo:
+        </label>
+        <input id="InputLado2" type="number">
+        <br>
+        <label for="InputBase">
+            Cuanto mide un la base del triangulo:
+        </label>
+        <input id="InputBase" type="number">
+        <br>
+        <label for="InputAltura">
+            Cuanto mide un la altura del triangulo:
+        </label>
+        <input id="InputAltura" type="number">
+        <br>
+         <button type="button" onclick="calcularPerimetroTriangulo()">
+             Calcular perimetro
+         </button>
+         <button type="button" onclick="calcularAreaTriangulo()">
+             Calcular area
+         </button>
+    </form>
+    </section>
+
+    <section>
+        <h2>Circulo</h2>
+        <form action="">
+             <label for="InputRadio">
+                 Cuanto mide el radio:
+             </label>
+             <input id="InputRadio" type="number">
+             <br>
+             <button type="button" onclick="calcularPerimetroRadio()">
+                 Calcular perimetro
+             </button>
+             <button type="button" onclick="calcularAreaRadio()">
+                 Calcular area
+             </button>
+        </form>
+    </section>
+
    <script src="./figuras.js"></script>
 </body>
 </html>
