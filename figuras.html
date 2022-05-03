@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="figuras.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figuras geometricas | Curso Practico JavaScript</title>
 </head>
@@ -15,23 +16,28 @@
    <p>El primer taller del cuerso practico de JavaScript</p>
    <section>
        <h2>cuadrado</h2>
+       <img src="https://clipground.com/images/cuadrado-png-5.png" alt="">
        <form action="">
             <label for="InputCuadrado">
                 Cuanto mide un lado del cuadrado:
             </label>
             <input id="InputCuadrado" type="number">
             <br>
-            <button type="button" onclick="calcularPerimetroCuadrado()">
-                Calcular perimetro
-            </button>
-            <button type="button" onclick="calcularAreaCuadrado()">
-                Calcular area
-            </button>
+            <div>
+                <button type="button" onclick="calcularPerimetroCuadrado()">
+                    Calcular perimetro
+                </button>
+                <button type="button" onclick="calcularAreaCuadrado()">
+                    Calcular area
+                </button>
+            </div>
+            
        </form>
    </section>
 
    <section>
     <h2>Triangulo</h2>
+    <img src="https://clipground.com/images/triangulo-preto-clipart-6.png" alt="">
     <form action="">
          <label for="InputLado1">
              Cuanto mide un lado #1 del triangulo:
@@ -53,29 +59,34 @@
         </label>
         <input id="InputAltura" type="number">
         <br>
-         <button type="button" onclick="calcularPerimetroTriangulo()">
-             Calcular perimetro
-         </button>
-         <button type="button" onclick="calcularAreaTriangulo()">
-             Calcular area
-         </button>
+        <div>
+            <button type="button" onclick="calcularPerimetroCuadrado()">
+                Calcular perimetro
+            </button>
+            <button type="button" onclick="calcularAreaCuadrado()">
+                Calcular area
+            </button>
+        </div>
     </form>
     </section>
 
     <section>
         <h2>Circulo</h2>
+        <img src="https://pngimage.net/wp-content/uploads/2018/05/circulo-vacio-png-2.png" alt="">
         <form action="">
              <label for="InputRadio">
                  Cuanto mide el radio:
              </label>
              <input id="InputRadio" type="number">
              <br>
-             <button type="button" onclick="calcularPerimetroRadio()">
-                 Calcular perimetro
-             </button>
-             <button type="button" onclick="calcularAreaRadio()">
-                 Calcular area
-             </button>
+             <div>
+                <button type="button" onclick="calcularPerimetroCuadrado()">
+                    Calcular perimetro
+                </button>
+                <button type="button" onclick="calcularAreaCuadrado()">
+                    Calcular area
+                </button>
+            </div>
         </form>
     </section>
 
