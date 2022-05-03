@@ -1,0 +1,25 @@
+section{
+    background-color: lightblue;
+    
+  }
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  
+div{
+    display: flex;
+}
+button{
+    flex: 50%;
+}
+html{
+    min-width: 500px;
+    max-width: 500px;
+}
+img{
+    height: 400px;
+ width: 400px;
+}
